@@ -1,0 +1,243 @@
+.formcontainer
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+.formtop
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.formlinetop
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.formcontainerinput
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.formtop input,
+.formtop textarea
+{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset;
+    font-family: 'Satoshi', sans-serif;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    background-color: var(--dark-white);
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.label
+{
+    font-size: 16px;
+    color: #979797;
+    font-weight: 400;
+}
+
+.formtop input
+{
+    height: 45px;
+}
+
+.formtop textarea
+{
+    height: 80px;
+}
+
+.formtop input[type="number"]::-webkit-outer-spin-button,
+.formtop input[type="number"]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.formtop input[type="number"]
+{
+    -moz-appearance: textfield;
+}
+
+.formAnswer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.optionWrapper
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.optionContainer,
+.addOptionButton
+{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1) inset;
+    background-color: var(--white);
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.addOptionButton
+{
+    cursor: pointer;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.addButtonCont
+{
+    cursor: pointer;
+    background: #F1F1F1;
+}
+
+.addOptionButton div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CDCDCD;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.optionValue
+{
+    border-left: 2px solid #d1d5db;
+    padding: 5px 40px;
+}
+
+.optionValue input[type="number"]
+{
+    -moz-appearance: textfield;
+}
+
+.optionValue input[type="number"]::-webkit-outer-spin-button,
+.optionValue input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.addOptionButton span
+{
+    border-left: 2px solid #d1d5db;
+    padding: 5px 40px;
+    color: #CDCDCD;
+}
+
+.answerOption button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 4px 6px 8px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(130, 0, 255, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.addcont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background: #CDCDCD;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.answerOption,
+.optionText,
+.optionValue
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.answerOption
+{
+    flex-basis: 5%;
+}
+
+.addOptionText
+{
+    color: #979797;
+}
+
+.closeButton
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+}
+
+.optionText
+{
+    border-left: 2px solid #d1d5db;
+    padding: 5px 40px;
+    flex-basis: 85%;
+}
+
+.optionValue
+{
+    flex-basis: 10%;
+}
+
+.optionContainer input
+{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Satoshi', sans-serif;
+    outline: none;
+}

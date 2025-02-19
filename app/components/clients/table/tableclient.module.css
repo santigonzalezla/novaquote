@@ -1,0 +1,27 @@
+.table
+{
+    font-family: 'Satoshi', sans-serif !important;
+}
+
+.cellstatus
+{
+    padding: 3px;
+    border-radius: 5px;
+    color: #8200FF;
+    background-color: rgba(130, 0, 255, 0.2);
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+.cellstatuscomplete
+{
+    color: #008000;
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+.cellstatusreject
+{
+    color: #DC143C;
+    background-color: rgba(255, 0, 0, 0.2);
+}

@@ -1,0 +1,226 @@
+.questionstep
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-radius: 20px;
+    gap: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+    padding: 35px 40px;
+}
+
+.questionstep h2
+{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.questioncontainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.containertop
+{
+    padding: 15px 60px;
+    align-items: center;
+    flex-basis: 15%;
+    display: flex;
+    width: 100%;
+    background: #F1F1F1;
+    border-radius: 20px 20px 0 0;
+}
+
+.containertop h3
+{
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.containertop button
+{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.containertopleft
+{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.containertopleft select
+{
+    margin-left: 20px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px;
+    background-color: var(--dark-white);
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+
+.containertopright
+{
+    display: flex;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.toprightcontainer
+{
+    display: flex;
+    gap: 7px;
+}
+
+.prevstepactive svg > path
+{
+    fill: #B2B2B2;
+}
+
+.containertopright .toprightcontainer:first-child
+{
+    border-right: 2px solid #CCC;
+    padding-right: 15px;
+}
+
+.containerbottom
+{
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    background: var(--white);
+    border-radius: 0 0 20px 20px;
+}
+
+.newquotationform
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+
+.formcontainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formcontainerinput
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.label
+{
+    padding-bottom: 15px;
+}
+
+.formcontainer input,
+.formcontainer textarea
+{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset;
+    font-family: 'Satoshi', sans-serif;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    background-color: var(--dark-white);
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.formcontainer input
+{
+    height: 55px;
+}
+
+.formcontainer textarea
+{
+    height: 120px;
+}
+
+.formcontainer input[type="number"]::-webkit-outer-spin-button,
+.formcontainer input[type="number"]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.formcontainer input[type="number"]
+{
+    -moz-appearance: textfield;
+}
+
+.formbuttons
+{
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 50%;
+}
+
+.cancelbutton,
+.createbutton
+{
+    font-family: 'Satoshi', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.formbuttons a
+{
+    width: 100%;
+    align-self: flex-end;
+}
+
+.cancelbutton
+{
+    background-color: var(--dark-white);
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.createbutton
+{
+    background: #FF4200;
+    color: var(--dark-white);
+    border: 1px solid transparent;
+}
